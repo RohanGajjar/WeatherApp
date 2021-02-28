@@ -1,0 +1,40 @@
+body{
+background-color: lightskyblue;
+    backface-visibility: inherit;
+}
+#h2{
+    font-family: "American Typewriter";
+    horiz-align: center;
+}
+#locationName{
+    font-size: x-large;
+}
+#id1{
+    color: #080808;
+    align-content: center;
+    size: 200px;
+    scroll-margin-inline-end: 90px;
+    border: #4cae4c;
+    place-self: center;
+    place-content: center;
+
+}
+#h3{
+    font-family: "American Typewriter";
+    align-self: auto;
+
+}
+#h4{
+    font-family: "American Typewriter";
+}
+::placeholder{
+    color: black;
+    opacity: 1;
+}
+.btn{
+    font-family: "American Typewriter";
+    color: darkcyan;
+}
+#00{
+    font-family: "American Typewriter";
+}
