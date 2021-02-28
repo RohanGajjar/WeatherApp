@@ -1,11 +1,12 @@
 doit = () => {
 
     var httpres = new XMLHttpRequest();
+    var key = 'Get your key from mapquest'
     var postalcode = document.getElementById('id1').value
     if(postalcode==''){
         alert("Please enter a valid zip code")
     }
-    var url = 'http://open.mapquestapi.com/geocoding/v1/address?key=TLzPGZnx5Dd0UlhaCREwbLzyrJGGhBYj&postalCode='+postalcode;
+    var url = 'http://open.mapquestapi.com/geocoding/v1/address?key='+key+'&postalCode='+postalcode;
 
     httpres.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
