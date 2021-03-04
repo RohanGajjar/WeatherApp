@@ -32,9 +32,9 @@ doit2 = (lat,long) => {
     var httpres1 = new XMLHttpRequest();
     console.log(lat)
       var url = 'https://api.weather.gov/points/'+lat+','+long;
-    // var KEY = 'TLzPGZnx5Dd0UlhaCREwbLzyrJGGhBYj';
+    
     var postalcode = document.getElementById('id1')
-    // var url = 'http://open.mapquestapi.com/geocoding/v1/address?key='+KEY+'&postalCode='+ postalcode;
+    
 
     httpres1.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
